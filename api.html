@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Show Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+</head>
+
+<body>
+
+    <div class="section p-4 pl-5 " style="border-bottom: 0.01em solid grey;">
+        <h1 class="title is-size-3 has-text-weight-medium m-0	">TV Show Search </h1>
+
+        <form id="frm">
+            <div class="columns">
+                <div class="column is-one-quarter">
+                    <input class="input is-primary is-normal is-one-quarter mt-2" type="text" placeholder="Dark"
+                        name="input">
+                </div>
+                <div class="column"><button class="button is-dark mt-2" id="button" type="submit">Search</buttton>
+                </div>
+            </div>
+
+        </form>
+        
+    </div>
+    <div class="container p-4 pl-5" id="data" style="display: flex ; flex-wrap: wrap; justify-content:space-between;"></div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="tv.js"></script>
+
+
+</body>
+
+</html>
